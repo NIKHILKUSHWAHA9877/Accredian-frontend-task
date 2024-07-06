@@ -1,18 +1,4 @@
-// // src/App.jsx
-// import React from 'react';
-// import HeroSection from './components/HeroSection';
-// import './styles.css';
 
-// const App = () => {
-//   return (
-//     <div className="app">
-//       <HeroSection />
-   
-//     </div>
-//   );
-// };
-
-// export default App;
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import HowItWorks from './components/HowItWorks';

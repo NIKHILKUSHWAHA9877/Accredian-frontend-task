@@ -189,3 +189,40 @@ margin: 3rem;
 .faq-answer {
   padding-left: 0.3rem;
 }
+
+@media screen and (max-width: 1200px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .faq-question1 {
+    white-space:inherit;
+    
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .btn1{
+    position: relative;
+    left: 225px;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .hero-section {
+    display: flex;
+    flex-direction:column;
+  justify-content: center;
+ 
+  }
+
+  .btn1{
+    position: relative;
+    bottom: 19rem;
+    left: 5.4rem;
+  }
+}
+
+
